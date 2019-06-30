@@ -43,19 +43,25 @@ for index in 19...51 where index % 2 != 0 {
 print(index)
 }
 ***
-## Question 5 TODO
+## Question 5 
 
 Write code that prints all the numbers that end in a **5** from 1 to 100, **exclusive.**
-for index in 1...100 where index % 5 == 0 && index % 2 != 0 {
-print(index)
+for i in 1...100 {
+if i % 5 == 0 && i % 10 != 0 {
+print(i)
+}
 }
 
 ***
-## Question 6 TODO
+## Question 6 
 
 Write code that prints all the numbers that end in a 7 from 1 to 40, **inclusive.**
 
-
+for i in 1...40 {
+if i % 5 == 0 && i % 10 != 0 {
+print(i+2)
+}
+}
 ***
 ## Question 7
 
